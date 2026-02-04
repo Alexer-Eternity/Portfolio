@@ -1,0 +1,68 @@
+:root {
+  --matrix-amber: #ffb000;
+  --matrix-glow: #ffcc00;
+  --matrix-dark: #1a1000;
+  --matrix-bg: #0d0800;
+  --glass-bg-light: rgba(245, 245, 220, 0.15);
+  --glass-bg-frosted: rgba(225, 215, 190, 0.9);
+  --glass-border-light: rgba(245, 245, 220, 0.3);
+  --text-on-light: #1a1000;
+  font-family: 'Courier New',Courier,monospace;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme:  dark;
+  color: var(--matrix-amber);
+  background-color: var(--matrix-bg);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  border: 2px solid var(--matrix-dark);
+}
+
+h1,h2{
+  color: var(--matrix-glow);
+  text-shadow: 0 0 12px var(--matrix-amber);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+button {
+  border-radius: 2px;
+  border: 1px solid var(--matrix-amber);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: transparent;
+  color: var(--matrix-amber);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: var(--matrix-amber);
+  color: var(--matrix-bg);
+  box-shadow: 0 0 20px var(--matrix-glow);
+}
+a {
+  color: var(--matrix-glow);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--matrix-glow);
+}
+
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px var(--matrix-glow);
+  border-bottom: 1px solid #fff;
+}
