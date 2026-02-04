@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Github, Disc, Linkedin, Terminal } from 'lucide-react';
+import { Github, Disc, Linkedin } from 'lucide-react';
 function Index() {
     const [count, setCount] = useState(0)
 
@@ -7,14 +7,14 @@ function Index() {
         <div className="index-container">
 
             <section className="card joke-card">
-                <h2>> Alexander Wu</h2>
+                <h2>&gt; Alexander Wu</h2>
                 <p className="glitch-text">
                     Half of the time I have no idea what I am doing;
                     the other half, I have no idea what I am supposed to be doing.
                 </p>
             </section>
             <section className="card about-card">
-                <h2>> About Me </h2>
+                <h2>&gt; About Me </h2>
                 <p>
                     My name is Alexander, some people call me Ali,s while others call me Alex. I am a Computer Science student at <strong>UNSW</strong>, who views technology through the lens of foundational systems.
                 </p>
@@ -28,8 +28,7 @@ function Index() {
 
             <section className="card social-card">
                 <h2>
-                    <Terminal size={18} style={{ marginRight: '8px', verticalAlign: 'middle' }} />
-                    Socials
+                    &gt;Socials
                 </h2>
                 <div className="link-grid">
                     <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="icon-link">

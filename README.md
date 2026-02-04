@@ -1,8 +1,12 @@
-# React + Vite
+## My Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Frontend
+- **React + Vite:** Core framework for a fast, component-based UI.
+- **React Router:** Handles client-side navigation between the Home and System Manual pages.
+- **Lucide React:** Providing sharp, stroke-based iconography.
+- **Canvas API:** Powering the real-time falling "Matrix code" background.
 
-Currently, two official plugins are available:
+### Backend
+- **Go (Golang):** High-performance serverless functions hosted via Vercel.
+- **Vercel Functions:** Handling API requests with zero-configuration deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
