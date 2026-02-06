@@ -107,14 +107,21 @@ a {
   padding-left: 0;
 }
 
-.project-content li {
-  margin-bottom: 0.8rem;
-  position: relative;
-  padding-left: 1.5rem;
+/* src/App.css */
+
+.project-card h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
 }
-.project-card .link-grid{
-  float: right;
-  justify-content: flex-start;
+
+/* Ensure the link grid doesn't introduce extra margins */
+.project-card .link-grid {
+  margin-top: 0;
+  gap: 1rem;
+  float: none;
 }
 
 .side-by-side-container {
