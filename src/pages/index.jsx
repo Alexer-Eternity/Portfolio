@@ -27,7 +27,7 @@ function Index() {
                         <Linkedin size={24} />
                         <span>LINKEDIN</span>
                     </a>
-                    <a href="mailto://alex@alexer.au" target="_blank" rel="noopener noreferrer" className="icon-link">
+                    <a href="mailto:alex@alexer.au" target="_blank" rel="noopener noreferrer" className="icon-link">
                         <Mail size={24} />
                         <span>EMAIL</span>
                     </a>
@@ -145,7 +145,7 @@ function Index() {
             </section>
 
             <section className="card project-card">
-                <h2>#2: Haunted
+                <h2>#3: Haunted
 
 
                     <div className="link-grid" >
