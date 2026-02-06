@@ -55,14 +55,10 @@ button:hover {
   color: var(--matrix-bg);
   box-shadow: 0 0 20px var(--matrix-glow);
 }
-a {
-  color: var(--matrix-glow);
-  text-decoration: none;
-  border-bottom: 1px dashed var(--matrix-glow);
-}
+
 
 a:hover {
-  color: #fff;
+  color: black;
   text-shadow: 0 0 8px var(--matrix-glow);
   border-bottom: 1px solid #fff;
 }
