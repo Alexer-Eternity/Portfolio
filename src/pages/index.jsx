@@ -1,5 +1,5 @@
 import { Github, Linkedin,ExternalLink,Mail } from 'lucide-react';
-import {SiDiscord,SiGithub} from '@icons-pack/react-simple-icons';
+import {SiGithub} from '@icons-pack/react-simple-icons';
 function Index() {
 
 
