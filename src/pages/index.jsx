@@ -22,10 +22,7 @@ function Index() {
                         <SiGithub size={24} />
                         <span>GITHUB</span>
                     </a>
-                    <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="icon-link">
-                        <SiDiscord size={24} />
-                        <span>DISCORD</span>
-                    </a>
+
                     <a href="https://www.linkedin.com/in/alexander-wu-90611923a/" target="_blank" rel="noopener noreferrer" className="icon-link">
                         <Linkedin size={24} />
                         <span>LINKEDIN</span>
